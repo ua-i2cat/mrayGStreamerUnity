@@ -6,7 +6,7 @@ using System;
 public class GstCustomPlayer:IGstPlayer  {
 	
 	
-	internal const string DllName = "GStreamerUnityPlugin";
+//	internal const string DllName = "GStreamerUnityPlugin";
 	
 	[DllImport(DllName, CallingConvention = CallingConvention.Cdecl)]
 	extern static private System.IntPtr mray_gst_createCustomVideoPlayer();

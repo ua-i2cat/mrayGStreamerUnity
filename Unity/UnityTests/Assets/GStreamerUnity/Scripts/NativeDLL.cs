@@ -1,8 +1,6 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System;
 using System.Runtime.InteropServices;
-using UnityEngine;
 
 //credits: http://runningdimensions.com/blog/?p=5
 public class NativeDLL : MonoBehaviour {
